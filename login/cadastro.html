@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro — BRSeakers</title>
+  <link rel="stylesheet" href="cadastro.css">
+  <link rel="stylesheet" href="../footer.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <img src="../imagem/Captura de tela 2025-11-08 042614-Photoroom.png" alt="Logo BRSeakers">
+      </div>
+      <button class="hamburger"></button>
+      <ul class="nav-list">
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../sobre/sobre.html">Sobre</a></li>
+        <li><a href="../login/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CADASTRO ===== -->
+  <main class="main-content">
+    <section class="card" aria-labelledby="signup-title">
+      <h2 id="signup-title">Criar conta</h2>
+      <p class="subtitle">Preencha os campos abaixo para se cadastrar na BRSeakers.</p>
+
+      <form action="#" method="post">
+        <div class="field">
+          <label for="name">Nome completo</label>
+          <input id="name" name="name" type="text" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Senha</label>
+          <input id="password" name="password" type="password" placeholder="••••••••" minlength="6" required>
+        </div>
+
+        <div class="field">
+          <label for="confirm">Confirmar senha</label>
+          <input id="confirm" name="confirm" type="password" placeholder="Repita sua senha" minlength="6" required>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+        <footer>
+          Já tem conta? <a href="../login/login.html">Entrar</a>
+        </footer>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <img src="/imagem/Captura de tela 2025-11-08 042614-Photoroom.png" alt="Logo" width="90">
+        <p>BrSneakers</p>
+      </div>
+      <p>&copy; Vila Sezamo</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
